@@ -106,10 +106,12 @@ span {
 .chatpage #chatContainer .whiteMessage .userandtimestamp .userNameAppend {
   color: #088308;
   margin-right: 5px;
+  font-size:10px;
 }
 
 .chatpage #chatContainer .whiteMessage .userandtimestamp .dateTimeAppend {
   color: #9e5656;
+  font-size:10px;
 }
 
 .chatpage #chatContainer .greenMessage {
@@ -136,10 +138,12 @@ span {
 .chatpage #chatContainer .greenMessage .userandtimestamp .userNameAppend {
   color: #088308;
   margin-right: 5px;
+  font-size:10px;
 }
 
 .chatpage #chatContainer .greenMessage .userandtimestamp .dateTimeAppend {
   color: #9e5656;
+  font-size:10px;
 }
 
 .chatpage #send {
