@@ -123,20 +123,6 @@ $('#sendBtn').on('click', (e) => {
 
 });
 
-function WhiteUserContent ( localuser , localmessage ) {
-    let dateTime = Date().toString().split(" ");
-    let date = dateTime[2]+"-"+dateTime[1]+"-"+dateTime[3]+" "+dateTime[0]+" "+dateTime[4];
-    let html = '<div class="whiteMessage"> <div class="userandtimestamp"><h3 class="userNameAppend"> ' + localuser + ' </h3> <h4 class="dateTimeAppend"> ' + date + ' </h4> </div><p class="message"> ' + localmessage + ' </p></div>';
-    return html;
-}
-
-function GreenUserContent ( localuser , localmessage ) {
-    let dateTime = Date().toString().split(" ");
-    let date = dateTime[2]+"-"+dateTime[1]+"-"+dateTime[3]+" "+dateTime[0]+" "+dateTime[4];
-    let html = '<div class="greenMessage"> <div class="userandtimestamp"><h3 class="userNameAppend"> ' + localuser + ' </h3> <h4 class="dateTimeAppend"> ' + date + ' </h4> </div><p class="message"> ' + localmessage + ' </p></div>';   
-    return html;
-}
-
 document.getElementById('sendTxt').addEventListener("keyup", function(event) {
     if(event.keyCode === 13) {
         event.preventDefault();
